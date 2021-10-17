@@ -1,0 +1,82 @@
+.detail-container {
+	min-height: 100vh;
+	width: 100vw;
+	background-color: var(--color-background);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+}
+.detail-card {
+	width: 350px;
+	height: 70%;
+	border-radius: 10px;
+	padding: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	padding-top: 15px;
+	margin-top: 150px;
+	box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.8);
+}
+@media only screen and (max-width: 500px) {
+	.detail-card {
+		width: 260px;
+	}
+}
+.image-container-detail {
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	top: -210px;
+}
+.image-container-detail img {
+	width: 100%;
+}
+.information-container {
+	width: 90%;
+	display: flex;
+	gap: 70px;
+}
+@media only screen and (max-width: 500px) {
+	.information-container {
+		gap: 30px;
+	}
+}
+.name-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	align-items: center;
+}
+.name-container h1 {
+	text-transform: capitalize;
+}
+.status-container {
+	gap: 20px;
+}
+.status-container p {
+	padding-left: 10px;
+}
+.second-information {
+	gap: 20px;
+}
+.second-information p {
+	padding-left: 10px;
+}
+.button-back {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	font-weight: 500;
+	background-color: black;
+}
+.button-back:hover {
+	transform: scale(1.03);
+	transition: 0.2s ease-in-out;
+}

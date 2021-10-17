@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+:root {
+	/* pokemon types */
+	--color-type-rock: rgb(209, 199, 199);
+	--color-type-ghost: rgb(247, 247, 247);
+	--color-type-electric: rgb(255, 255, 161);
+	--color-type-bug: #f6d6a7;
+	--color-type-poison: #5f396e;
+	--color-type-psychic: #e0a7f6;
+	--color-type-normal: #f4f4f4;
+	--color-type-fairy: rgba(255, 192, 203, 0.863);
+	--color-type-fire: #fbe3df;
+	--color-type-grass: #e2f9e1;
+	--color-type-water: #7ec5f8;
+	--color-type-ground: rgb(148, 81, 81);
+	--color-type-fighting: rgb(219, 141, 141);
+	--color-type-ice: #e0f1fd;
+	--color-type-dragon: #5f7091;
+	--color-type-dark: rgb(110, 105, 105);
+	--color-type-steel: #b9a0a0;
+	--color-type-flying: #43d9bd;
+	--font-family: "Roboto", sans-serif;
+	/* background*/
+	--color-background: rgb(226, 226, 213);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+	font-family: var(--font-family);
 }

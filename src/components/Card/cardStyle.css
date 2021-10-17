@@ -1,0 +1,82 @@
+.card-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ffffff;
+	box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+	width: 250px;
+	height: 400px;
+	padding: 0 15px;
+	cursor: pointer;
+}
+.rock {
+	background-color: var(--color-type-rock);
+}
+.ghost {
+	background-color: var(--color-type-ghost);
+}
+.electric {
+	background-color: var(--color-type-electric);
+}
+.bug {
+	background-color: var(--color-type-bug);
+}
+.poison {
+	background-color: var(--color-type-poison);
+}
+.normal {
+	background-color: var(--color-type-normal);
+}
+.fairy {
+	background-color: var(--color-type-fairy);
+}
+.fire {
+	background-color: var(--color-type-fire);
+}
+.grass {
+	background-color: var(--color-type-grass);
+}
+.water {
+	background-color: var(--color-type-water);
+}
+.psychic {
+	background-color: var(--color-type-psychic);
+}
+.ground {
+	background-color: var(--color-type-ground);
+}
+.fighting {
+	background-color: var(--color-type-fighting);
+}
+.ice {
+	background-color: var(--color-type-ice);
+}
+.dragon {
+	background-color: var(--color-type-dragon);
+}
+.dark {
+	background-color: var(--color-type-dark);
+}
+.steel {
+	background-color: var(--color-type-steel);
+}
+.flying {
+	background-color: var(--color-type-flying);
+}
+
+.image-container img {
+	width: 100%;
+}
+.card-container h2 {
+	text-transform: capitalize;
+	text-shadow: white 1px 1px 1px;
+}
+.card-container h1 {
+	text-shadow: white 1px 1px 1px;
+}
+.card-container:hover {
+	transform: scale(1.03);
+	transition: 0.3s ease all;
+}

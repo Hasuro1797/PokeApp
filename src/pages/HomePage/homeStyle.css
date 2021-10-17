@@ -1,0 +1,8 @@
+.Home-container {
+	min-height: 100vh;
+	background-color: var(--color-background);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
