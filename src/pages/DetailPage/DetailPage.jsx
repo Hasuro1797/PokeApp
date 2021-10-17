@@ -6,6 +6,7 @@ import { getPokemonDetail, notFoundParams } from "../../redux/actions/actions";
 import "./detailStyle.css";
 import { routes } from "../../helpers/routes";
 import Spinner from "../../components/Spinner/Spinner";
+import NotResults from "../../components/NotResults/NotResults";
 
 const DetailPage = ({ match }) => {
 	const pokemonDetail = useSelector((state) => state.pokemon.pokemonDetail);
@@ -91,9 +92,7 @@ const DetailPage = ({ match }) => {
 			</button>
 		</div>
 	) : (
-		<div>
-			<p>No hay resultados</p>
-		</div>
+		<NotResults />
 	);
 };
 

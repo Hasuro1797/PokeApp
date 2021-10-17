@@ -15,7 +15,7 @@ const HomePage = () => {
 	const loading = useSelector((state) => state.pokemon.loadingList);
 
 	useEffect(() => {
-		dispatch(getPokemons());
+		if (!pokemonList.length) dispatch(getPokemons());
 	}, []);
 
 	const handleChange = (e) => {
