@@ -3,7 +3,7 @@ import { routes } from "./helpers/routes";
 import HomePage from "./pages/HomePage/HomePage";
 import DetailPage from "./pages/DetailPage/DetailPage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
-import "./app.css";
+import "./App.css";
 function App() {
 	return (
 		<>
